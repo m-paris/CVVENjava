@@ -43,10 +43,11 @@ Contributor(s):
   <session-factory>
     <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
     <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-    <property name="hibernate.connection.url">jdbc:postgresql://chamilo.rene-descartes.fr:5432/groupe1ajava</property>
-    <property name="hibernate.connection.username">groupe1a</property>
-    <property name="hibernate.connection.password">mdp1a2017</property>
-    <mapping class="hibernatecvven.metier.Evenement"/>
-    <mapping class="hibernatecvven.metier.Participant"/>
+    <property name="hibernate.connection.url">jdbc:postgresql://chamilo.rene-descartes.fr:5432/groupe1b</property>
+    <property name="hibernate.connection.username">groupe1b</property>
+    <property name="hibernate.connection.password">mdp1b2017</property>
+    <mapping class="metier.Evenement"/>
+    <mapping class="metier.Participant"/>
+    <mapping class="metier.Salle"/>
   </session-factory>
 </hibernate-configuration>
